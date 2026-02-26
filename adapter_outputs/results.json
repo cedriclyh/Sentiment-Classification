@@ -1,0 +1,72 @@
+[
+  {
+    "config": "Base",
+    "method": "none",
+    "r": "\u2014",
+    "alpha": "\u2014",
+    "lr": "\u2014",
+    "accuracy": 0.5901639344262295,
+    "macro_f1": 0.5062866279492313,
+    "parse_failures": 73
+  },
+  {
+    "config": "C1",
+    "method": "QLORA",
+    "r": 8,
+    "alpha": 16,
+    "lr": 0.0002,
+    "accuracy": 0.8098591549295775,
+    "macro_f1": 0.8093032766500687,
+    "parse_failures": 74
+  },
+  {
+    "config": "C2",
+    "method": "QLORA",
+    "r": 16,
+    "alpha": 32,
+    "lr": 0.0002,
+    "accuracy": 0.9376443418013857,
+    "macro_f1": 0.937632366513206,
+    "parse_failures": 67
+  },
+  {
+    "config": "C3",
+    "method": "QLORA",
+    "r": 8,
+    "alpha": 16,
+    "lr": 5e-05,
+    "accuracy": 0.9214780600461894,
+    "macro_f1": 0.9210735117515869,
+    "parse_failures": 67
+  },
+  {
+    "config": "C4",
+    "method": "DORA",
+    "r": 8,
+    "alpha": 16,
+    "lr": 0.0002,
+    "accuracy": 0.9905437352245863,
+    "macro_f1": 0.9905394524959742,
+    "parse_failures": 77
+  },
+  {
+    "config": "C5",
+    "method": "DORA",
+    "r": 16,
+    "alpha": 32,
+    "lr": 0.0002,
+    "accuracy": 0.930715935334873,
+    "macro_f1": 0.9307066956855716,
+    "parse_failures": 67
+  },
+  {
+    "config": "C6",
+    "method": "DORA",
+    "r": 8,
+    "alpha": 16,
+    "lr": 5e-05,
+    "accuracy": 0.9237875288683602,
+    "macro_f1": 0.923368996862682,
+    "parse_failures": 67
+  }
+]
